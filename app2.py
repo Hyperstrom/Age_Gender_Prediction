@@ -5,7 +5,7 @@ from numpy import round
 import os
 
 # Load pre-trained face detection model
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 person_info = []
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
