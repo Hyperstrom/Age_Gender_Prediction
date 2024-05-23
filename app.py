@@ -1,8 +1,7 @@
 import cv2
 import streamlit as st
 import numpy as np
-import tempfile
-import keras
+from tensorflow import keras    
 from numpy import round
 from app2 import*
 from io import BytesIO
