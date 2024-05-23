@@ -1,6 +1,6 @@
 streamlit
 opencv-python-headless==4.5.5.64
 numpy
-tensorflow
+tensorflow==1.10.0
 openpyxl==3.1.2
 
