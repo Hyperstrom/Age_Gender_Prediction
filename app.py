@@ -37,7 +37,7 @@ def age_gender_predcition(face_resized):
     return age, gender
 # Load the pre-trained face detector:
 
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 st.set_page_config(layout="wide")
 
 def main():
