@@ -1,8 +1,7 @@
 import cv2
 import streamlit as st
 import numpy as np
-import tempfile
-import keras
+from tensorflow import keras
 from numpy import round
 from app2 import*
 from io import BytesIO
@@ -38,7 +37,7 @@ def age_gender_predcition(face_resized):
     return age, gender
 # Load the pre-trained face detector:
 
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 st.set_page_config(layout="wide")
 
 def main():
