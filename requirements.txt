@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 streamlit==1.34.0
 opencv-python==4.9.0
 numpy==1.26.4
 keras==2.10.0
 openpyxl==3.1.2
+=======
+streamlit>=1.34.0
+tensorflow>=2.10.0
+opencv-python==4.5.5.64
+numpy==1.26.4
+openpyxl==3.1.2
+
+>>>>>>> 7b62cd3148dcd779b40e60e6b5046be4adb5f485
