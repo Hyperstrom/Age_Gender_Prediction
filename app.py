@@ -1,11 +1,7 @@
 import cv2
 import streamlit as st
 import numpy as np
-<<<<<<< HEAD
-from tensorflow import keras
-=======
 from tensorflow import keras    
->>>>>>> 7b62cd3148dcd779b40e60e6b5046be4adb5f485
 from numpy import round
 from app2 import*
 from io import BytesIO
