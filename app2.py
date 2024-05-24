@@ -1,10 +1,6 @@
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
-<<<<<<< HEAD
-# from keras.models import load_model
-=======
->>>>>>> 7b62cd3148dcd779b40e60e6b5046be4adb5f485
 from numpy import round
 import os
 
